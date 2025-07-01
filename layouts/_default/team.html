@@ -1,0 +1,112 @@
+{{ define "main" }}
+<div class="team-page">
+    <h1>{{ .Title }}</h1>
+    <div class="content">
+        {{ .Content }}
+    </div>
+    
+    <div class="team-grid">
+        <div class="team-card">
+            <h3>Constant Leung</h3>
+            <p class="position">Professor</p>
+            <p class="university">King's College London</p>
+        </div>
+
+        <div class="team-card">
+            <h3>Ming Ming Chiu</h3>
+            <p class="position">Chair Professor</p>
+            <p class="university">The Education University of Hong Kong</p>
+        </div>
+
+        <div class="team-card">
+            <h3>Xuesong (Andy) Gao</h3>
+            <p class="position">Professor</p>
+            <p class="university">University of New South Wales</p>
+        </div>
+
+        <div class="team-card">
+            <h3>Michelle Mingyue Gu</h3>
+            <p class="position">Professor</p>
+            <p class="university">The Education University of Hong Kong</p>
+        </div>
+
+        <div class="team-card">
+            <h3>Eunice Jang</h3>
+            <p class="position">Professor</p>
+            <p class="university">University of Toronto</p>
+        </div>
+
+        <div class="team-card">
+            <h3>Li Wei</h3>
+            <p class="position">Professor</p>
+            <p class="university">University College London</p>
+        </div>
+
+        <div class="team-card">
+            <h3>Yiqi Liu</h3>
+            <p class="position">Assistant Professor</p>
+            <p class="university">The Education University of Hong Kong</p>
+        </div>
+
+        <div class="team-card">
+            <h3>Paul J. Thibault</h3>
+            <p class="position">Visiting Professor</p>
+            <p class="university">The Education University of Hong Kong</p>
+        </div>
+
+        <div class="team-card">
+            <h3>Yongyan Zheng</h3>
+            <p class="position">Professor</p>
+            <p class="university">Fudan University</p>
+        </div>
+    </div>
+</div>
+
+<style>
+.team-page h1 {
+    text-align: center;
+    color: #2d5a27;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.team-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(45, 90, 39, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #4a7c59;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(45, 90, 39, 0.2);
+}
+
+.team-card h3 {
+    color: #2d5a27;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.team-card .position {
+    color: #4a7c59;
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.team-card .university {
+    color: #666;
+    font-weight: bold;
+}
+</style>
+{{ end }}

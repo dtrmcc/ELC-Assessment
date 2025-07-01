@@ -1,0 +1,156 @@
+{{ define "main" }}
+<div class="research-page">
+    <h1>{{ .Title }}</h1>
+    <div class="content">
+        {{ .Content }}
+    </div>
+    
+    <div class="research-sections">
+        <div class="research-section">
+            <div class="research-icon">🌿</div>
+            <h3>Ecological Languaging Competency Framework</h3>
+            <p>We are developing a novel theoretical framework that understands and assesses language competency within broader ecosystems. This framework considers the complex interactions of social, cultural, cognitive, and environmental factors in language use.</p>
+            <div class="research-details">
+                <ul>
+                    <li>Systems thinking approach to language assessment</li>
+                    <li>Integration of sociocultural and environmental contexts</li>
+                    <li>Dynamic competency modeling</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="research-section">
+            <div class="research-icon">🔧</div>
+            <h3>Multimodal Assessment Tools</h3>
+            <p>Our team is designing innovative assessment tools that evaluate not only traditional language skills but also 21st-century core competencies such as digital literacy, intercultural communication skills, and sustainability awareness.</p>
+            <div class="research-details">
+                <ul>
+                    <li>Technology-enhanced assessment platforms</li>
+                    <li>Performance-based evaluation methods</li>
+                    <li>Adaptive assessment algorithms</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="research-section">
+            <div class="research-icon">🌍</div>
+            <h3>Cross-cultural Language Practices</h3>
+            <p>We conduct in-depth research on language practices across different cultural contexts, exploring how to maintain linguistic diversity while promoting effective cross-cultural communication in the era of globalization.</p>
+            <div class="research-details">
+                <ul>
+                    <li>Ethnographic studies of language use</li>
+                    <li>Cultural responsiveness in assessment</li>
+                    <li>Multilingual competency frameworks</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="research-section">
+            <div class="research-icon">🤖</div>
+            <h3>Technology-Enhanced Assessment</h3>
+            <p>Utilizing artificial intelligence and machine learning technologies, we are developing more precise, personalized language assessment systems that can adapt in real-time to learners' needs and progress.</p>
+            <div class="research-details">
+                <ul>
+                    <li>AI-powered diagnostic tools</li>
+                    <li>Natural language processing applications</li>
+                    <li>Predictive analytics for learning outcomes</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="research-section">
+            <div class="research-icon">📊</div>
+            <h3>Validation and Psychometric Studies</h3>
+            <p>Rigorous validation studies ensure our assessment tools meet the highest standards of reliability, validity, and fairness across diverse populations and contexts.</p>
+            <div class="research-details">
+                <ul>
+                    <li>Large-scale validation studies</li>
+                    <li>Fairness and bias analysis</li>
+                    <li>Cross-cultural validity research</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="research-section">
+            <div class="research-icon">🎓</div>
+            <h3>Educational Impact Research</h3>
+            <p>We investigate how ecological languaging competency assessment can inform and improve language education practices, curriculum development, and teacher training programs.</p>
+            <div class="research-details">
+                <ul>
+                    <li>Classroom implementation studies</li>
+                    <li>Teacher professional development</li>
+                    <li>Curriculum alignment research</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.research-page h1 {
+    text-align: center;
+    color: #2d5a27;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.research-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.research-section {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(45, 90, 39, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #4a7c59;
+}
+
+.research-section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(45, 90, 39, 0.2);
+}
+
+.research-icon {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.research-section h3 {
+    color: #2d5a27;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.research-section p {
+    color: #4a7c59;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.research-details {
+    background: #f8fdf8;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 3px solid #87ceab;
+}
+
+.research-details ul {
+    color: #2d5a27;
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.research-details li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+</style>
+{{ end }}

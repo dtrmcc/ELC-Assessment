@@ -1,0 +1,12 @@
+name = "minimal"
+license = "MIT"
+licenselink = "https://github.com/yourname/minimal/blob/master/LICENSE"
+description = "A minimal theme for ELC Assessment Research Team"
+homepage = "https://elc-assess.org"
+tags = ["academic", "research", "minimal", "responsive"]
+features = ["responsive", "academic"]
+min_version = "0.41.0"
+
+[author]
+  name = "ELC Assessment Team"
+  homepage = "https://elc-assess.org"
