@@ -7,4 +7,4 @@ layout: "team"
 
 # Research Team Members
 
-Our research team consists of distinguished scholars from leading universities around the world, specializing in English Language and Culture Assessment.
+[PLACEHOLDER: Brief description of our team - approximately 2-3 sentences about our collective expertise and backgrounds]

@@ -7,4 +7,4 @@ layout: "contact"
 
 # Contact Us
 
-We welcome inquiries from researchers, educators, and institutions interested in ecological languaging competency assessment.
+[PLACEHOLDER: Brief welcome message for inquiries - 1-2 sentences about who should contact us and why]

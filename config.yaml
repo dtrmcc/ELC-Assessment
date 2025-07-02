@@ -1,10 +1,10 @@
 baseURL: 'https://elc-assess.org'
 languageCode: 'en-us'
-title: 'Ecological Languaging Competency Assessment Research Team'
+title: 'Ecological Languaging Competencies Assessment Research Team'
 theme: 'minimal'
 
 params:
-  description: 'Distinguished scholars specializing in Ecological Languaging Competency Assessment from leading universities worldwide'
+  description: 'Distinguished scholars specializing in Ecological Languaging Competencies Assessment from leading universities worldwide'
   author: 'ELC Assessment Research Team'
   email: 'info@elc-assess.org'
   domain: 'elc-assess.org'
